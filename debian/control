@@ -92,7 +92,7 @@ Description: Java bindings for Thrift
 Package: libthrift-cil
 Architecture: all
 Section: libs
-Depends: cli-common, libmono-corlib1.0-cil (>= 1.0), libmono-system1.0-cil (>= 1.0), 
+Depends: cli-common, libmono-corlib2.0-cil (>= 2.0), libmono-system2.0-cil (>= 2.0),
     libmono-system-web2.0-cil, ${misc:Depends}
 Description: CLI bindings for Thrift
  Thrift is a software framework for scalable cross-language services
