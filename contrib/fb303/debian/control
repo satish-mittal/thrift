@@ -1,0 +1,12 @@
+Source: fb303
+Section: unknown
+Priority: extra
+Maintainer: Platform Engineering <platform-engg@inmobi.com>
+Homepage: <insert the upstream URL, if relevant>
+
+Package: libfb303
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: fb303 module, installs in /usr
+ <insert long description, indented with spaces>
+
