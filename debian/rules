@@ -139,10 +139,10 @@ install-arch:
 	#$(MAKE) DESTDIR=$(CURDIR)/debian/thrift install
 
 	# Compiler
-	mkdir -p $(CURDIR)/debian/thrift-compiler/usr/bin && \
+	mkdir -p $(CURDIR)/debian/inmobi-techplatform-thrift-compiler/usr/bin && \
 	cp $(CURDIR)/compiler/cpp/thrift \
-		$(CURDIR)/debian/thrift-compiler/usr/bin/thrift && \
-	rmdir $(CURDIR)/debian/thrift-compiler/usr/sbin
+		$(CURDIR)/debian/inmobi-techplatform-thrift-compiler/usr/bin/thrift && \
+	rmdir $(CURDIR)/debian/inmobi-techplatform-thrift-compiler/usr/sbin
 
 	# Python
 	cd $(CURDIR)/lib/py && \
