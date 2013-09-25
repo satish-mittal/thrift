@@ -4,9 +4,10 @@ Priority: extra
 Maintainer: Platform Engineering <platform-engg@inmobi.com>
 Homepage: <insert the upstream URL, if relevant>
 
-Package: libfb303
+Package: inmobi-techplatform-libfb303
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: fb303 module, installs in /usr
- <insert long description, indented with spaces>
-
+ fb303 is the shared root of all thrift services.
+ It provides a standard interface to monitoring, dynamic options
+ and configuration, uptime reports, activity, etc
